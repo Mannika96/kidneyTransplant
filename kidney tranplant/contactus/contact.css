@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header h1 {
+    margin: 0;
+    color: #333;
+}
+
+.profile-header p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.specializations {
+    margin-bottom: 10px;
+}
+
+.locations {
+    list-style: none;
+    padding: 0;
+}
+
+.locations li {
+    display: inline;
+    margin-right: 10px;
+    color: #666;
+}
+
+.schedule {
+    margin-top: 20px;
+}
+
+.schedule-appointment {
+    margin-bottom: 10px;
+}
+
+.appointment-options .btn {
+    margin-right: 10px;
+}
+
+.appointment-details select {
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+.btn {
+    background-color: #ff6659;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color:#ff6659;
+}

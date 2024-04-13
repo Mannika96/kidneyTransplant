@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero_section {
+    background: url("https: //regencyhealthcare.in/wp-content/uploads/2019/03/Blog-image_MAR_15-1200x800.jpg");
+    min-height: 60vh;
+    background-position:center;
+    background-size: cover;
+}

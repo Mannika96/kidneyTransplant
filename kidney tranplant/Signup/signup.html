@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Here</title>
+    <link rel="icon" href="https://logodix.com/logo/1858976.png" />
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Registration Form</h2>
+      <form action="#">
+        <div class="input-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Enter full name" required />
+        </div>
+        <div class="input-group">
+          <label for="email">Email ID</label>
+          <input type="email" id="email" placeholder="Enter email" required />
+        </div>
+        <div class="input-group">
+          <label for="age">Age</label>
+          <input type="text" id="age" placeholder="Age in Yrs" required />
+        </div>
+        <div class="input-group">
+          <label for="mobile">Mobile</label>
+          <input
+            type="tel"
+            id="mobile"
+            placeholder="For getting verification code"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="gender">Gender</label>
+          <select id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="input-group">
+          <label for="symptoms">Note</label>
+          <textarea
+            id="symptoms"
+            placeholder="Tell us your symptom or health problem"
+          ></textarea>
+        </div>
+        <p>
+          By continuing, you agree to the <a href="#">Privacy Policy</a> & the
+          <a href="#">Disclaimer & Clauses</a> of this Tele/Video consultation.
+        </p>
+        <p>* Email ID is mandatory to receive payment invoice.</p>
+        <button type="submit">Continue</button>
+      </form>
+    </div>
+  </body>
+</html>
